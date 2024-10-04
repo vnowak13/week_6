@@ -22,9 +22,13 @@ text_tuple= tuple(text)
 print(text_tuple)
 
 #step 5: Invert the whole text
-
+inverted_text= text[::-1]
+print(inverted_text)
 # step 6 find the 1st and last words of the text
-
+first_letter= text[0]
+last_letter= text[-1]
+print(first_letter)
+print(last_letter)
 # step 7 is the word "python" in the text
 
 
