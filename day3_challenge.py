@@ -30,8 +30,12 @@ last_letter= text[-1]
 print(first_letter)
 print(last_letter)
 # step 7 is the word "python" in the text
-tp=text
 
-print('python' in tp)
+occurance_1python=text.count('python')
+occurance_2python=text.count('Python')
+
+totaltimes= int(occurance_1python) + int(occurance_2python)
+
+print( f'python occurs a {totaltimes} amount of times in the text!')
 
 
