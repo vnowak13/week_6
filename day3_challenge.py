@@ -19,7 +19,7 @@ print(occurance3)
 
 # step 4: How many words are in the whole text?
 text_tuple= tuple(text)
-print(text_tuple)
+print( "all letters in text" + str(text_tuple))
 
 #step 5: Invert the whole text
 inverted_text= text[::-1]
@@ -30,8 +30,8 @@ last_letter= text[-1]
 print(first_letter)
 print(last_letter)
 # step 7 is the word "python" in the text
+tp=text
 
-
-
+print('python' in tp)
 
 
